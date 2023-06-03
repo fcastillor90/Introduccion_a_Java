@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Sillas Gamers</title>
+</head>
+<body>
+    <div class="container-card">
+        <div class="container-img">
+        <img src="./assets/img/15944113_1.jpg" width="130" height="130" alt="Imagen de Silla Referencial">
+        <p style="color: black; text-align: center;">Sillas Gamers</p>
+    </div>
+    <div class="container-input">
+        <input type="number" id="cantidad" placeholder="Cantidad"/>
+        <input type="text" id="color" placeholder="Color"/>
+        <div class="container-precio">
+            <p>Precio: $<span id="precio">250000</span></p>
+        </div>
+    </div>
+    <div class="container-btn">
+        <button onclick="calcularTotal()">Calcular Total</button>
+    </div>
+    </div>
+    <div>
+        <div class="container-resultado">
+        <div  class="resultado-items">
+                <p>Total:</p>
+                <span id="totalElement"></span>
+            </div>
+            <div  class="resultado-items">
+                <p>Cantidad:</p>
+                <span id="cantidadElement"></span>
+            </div>
+            <div  class="resultado-items">
+                <p>Color:</p>
+                <span id="colorElement" class="result-color"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
